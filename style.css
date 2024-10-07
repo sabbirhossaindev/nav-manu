@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+.logo {
+  height: 55px;
+  width: 220px;
+}
+.nav-section-div {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+nav div ul li {
+  display: flex;
+  display: inline-block;
+  padding: 1px 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #363958;
+  font-weight: 700;
+}
+ul li a:hover {
+  color: #fa804c;
+}
+ul li a:active {
+  color: blue;
+}
+.sign-up-btn {
+  background-color: #fa804c;
+  height: 37px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
+.sign-up-btn a {
+  color: #363958;
+}
+.sign-up-btn a:hover {
+  color: #ffff !important;
+}
+/* nav manu end  */
+/* midea query */
